@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>Ruta_70Vivienda</name>
+	<open>1</open>
+	<Style id="sn_star">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ranger_station">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ranger_station">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_flag">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_star">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_star0">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="msn_ylw-pushpin0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ylw-pushpin0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ylw-pushpin</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_flag">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sn_mechanic">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/mechanic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ranger_station">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin0">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>aa0000ff</color>
+			<width>4.9875</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_mechanic">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mechanic</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mechanic</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_star">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_star</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_star</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_flag">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mechanic">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/mechanic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin0">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>aaff0000</color>
+			<width>3.325</width>
+		</LineStyle>
+	</Style>
+	<Style id="sn_ylw-pushpin">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>aa0000ff</color>
+			<width>3.325</width>
+		</LineStyle>
+	</Style>
+	<Style id="sh_ylw-pushpin">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>aaff0000</color>
+			<width>4.9875</width>
+		</LineStyle>
+	</Style>
+	<Folder>
+		<name>Tramos</name>
+		<Placemark>
+			<name>Ruta_i</name>
+			<styleUrl>#msn_ylw-pushpin0</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-100.2321231,25.6726379,0 -100.2330565,25.6727056,0 -100.2330673,25.6724639,0 -100.2321446,25.6723769,0 -100.2328634,25.6689731,0 -100.2345049,25.6609177,0 -100.2396226,25.6622232,0 -100.2383459,25.6689247,0 -100.237914,25.670982,0 -100.2375197,25.6730247,0 -100.2370799,25.6749683,0 -100.2370584,25.678662,0 -100.2433991,25.6793872,0 -100.2460706,25.6797063,0 -100.2483881,25.6799577,0 -100.2548361,25.67989,0 -100.2598357,25.679803,0 -100.2609837,25.6795226,0 -100.2617884,25.6795033,0 -100.2648246,25.6798223,0 -100.2658439,25.679803,0 -100.2673781,25.6795226,0 -100.2679038,25.6795033,0 -100.2698028,25.6799674,0 -100.2772808,25.682346,0 -100.2808857,25.684009,0 -100.28404,25.6838833,0 -100.2855527,25.6837673,0 -100.2921402,25.6838833,0 -100.2966464,25.6840283,0 -100.3042102,25.6849179,0 -100.316602,25.6861845,0 -100.3189087,25.6864552,0 -100.3189516,25.68544,0 -100.3312039,25.6867452,0 -100.33144,25.6868033,0 -100.332191,25.68668720000001,0 -100.3379953,25.6873447,0 -100.3381026,25.6866582,0 -100.3485525,25.6878765,0 -100.3513527,25.6881472,0 -100.3518677,25.6877411,0 -100.3520501,25.684096,0 -100.3528547,25.6840283,0 -100.3534555,25.683922,0 -100.3574467,25.6811567,0 -100.3580797,25.6806829,0 -100.3588414,25.6804122,0 -100.3598177,25.6804895,0 -100.3618777,25.68106,0 -100.3625429,25.681031,0 -100.3633153,25.6806926,0 -100.3664374,25.6788699,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>Ruta_r</name>
+			<styleUrl>#msn_ylw-pushpin</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-100.3664374,25.6788699,0 -100.3663141,25.6786669,0 -100.363192,25.6805137,0 -100.3625,25.6808231,0 -100.3620654,25.6808569,0 -100.3600538,25.680359,0 -100.3595603,25.6802429,0 -100.3592706,25.6802043,0 -100.3588951,25.6802381,0 -100.3584498,25.6803203,0 -100.3577578,25.6806587,0 -100.3542012,25.6832162,0 -100.3535199,25.6836174,0 -100.3529567,25.6838785,0 -100.3522378,25.6838301,0 -100.3521734,25.6837093,0 -100.3523076,25.6813114,0 -100.352093,25.6812099,0 -100.3518891,25.6813114,0 -100.3516906,25.6866679,0 -100.3516531,25.6877411,0 -100.3512239,25.6879345,0 -100.3472489,25.6875332,0 -100.3447491,25.6872673,0 -100.3406024,25.6867646,0 -100.3371477,25.6864745,0 -100.3372657,25.6856527,0 -100.3230822,25.684154,0 -100.3141505,25.6831775,0 -100.3095639,25.6826602,0 -100.3073618,25.6824378,0 -100.3048539,25.6821405,0 -100.3019169,25.6818263,0 -100.2999696,25.68161350000001,0 -100.2961957,25.6811857,0 -100.2960992,25.6819689,0 -100.2950156,25.6819109,0 -100.2910781,25.6819399,0 -100.2890396,25.6820269,0 -100.2837825,25.682491,0 -100.2791369,25.6828487,0 -100.2724957,25.6806152,0 -100.2681291,25.6793969,0 -100.2671635,25.6793872,0 -100.2653503,25.6796966,0 -100.2618849,25.6793679,0 -100.2608979,25.6793969,0 -100.259825,25.679629,0 -100.2548468,25.6797063,0 -100.2483559,25.679745,0 -100.2371335,25.678488,0 -100.2330347627174,25.67797075579282,0 -100.2315594767159,25.67769857656457,0 -100.2310847848329,25.67763790676197,0 -100.2311877560023,25.67654175649976,0 -100.23177669475,25.67435069100617,0 -100.2321276319984,25.67266105445883,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

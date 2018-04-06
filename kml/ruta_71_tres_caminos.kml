@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ruta_71TresCaminos</name>
+	<StyleMap id="msn_ranger_station">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ranger_station</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ranger_station</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_ranger_station">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_flag">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_flag</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_flag</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_ranger_station">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/ranger_station.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sn_star">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/star.png</href>
+			</Icon>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<Style id="line-A52714-3325-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff1427a5</color>
+			<width>4.9875</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="line-000000-3906-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-000000-3906-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-000000-3906-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="line-A52714-3325-nodesc">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#line-A52714-3325-nodesc-normal</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#line-A52714-3325-nodesc-highlight</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="line-A52714-3325-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>ff1427a5</color>
+			<width>3.325</width>
+		</LineStyle>
+	</Style>
+	<Style id="line-000000-3906-nodesc-normal">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>aaff0000</color>
+			<width>3.906</width>
+		</LineStyle>
+	</Style>
+	<StyleMap id="msn_star0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_star</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_star</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="s_ylw-pushpin">
+		<IconStyle>
+			<scale>1.2</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/mechanic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="line-000000-3906-nodesc-highlight">
+		<BalloonStyle>
+			<text><![CDATA[<h3>$[name]</h3>]]></text>
+		</BalloonStyle>
+		<LineStyle>
+			<color>aaff0000</color>
+			<width>5.859</width>
+		</LineStyle>
+	</Style>
+	<Style id="s_ylw-pushpin_hl">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/mechanic.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+	</Style>
+	<Style id="sh_flag">
+		<IconStyle>
+			<scale>1.4</scale>
+			<Icon>
+				<href>http://maps.google.com/mapfiles/kml/shapes/flag.png</href>
+			</Icon>
+			<hotSpot x="0.5" y="0" xunits="fraction" yunits="fraction"/>
+		</IconStyle>
+		<ListStyle>
+		</ListStyle>
+	</Style>
+	<StyleMap id="m_ylw-pushpin">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#s_ylw-pushpin</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#s_ylw-pushpin_hl</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Folder>
+		<name>Tramos</name>
+		<Placemark>
+			<name>centro</name>
+			<styleUrl>#line-000000-3906-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-100.1911872,25.6722801,0 -100.1914501,25.6717259,0 -100.1917022,25.6711572,0 -100.1922065,25.6700198,0 -100.1932311,25.6677353,0 -100.1924265,25.6672324,0 -100.1913965,25.666807,0 -100.1936442,25.6619959,0 -100.1926947,25.6615898,0 -100.1927591,25.6614495,0 -100.1898945,25.6601053,0 -100.1896477,25.6600376,0 -100.1894975,25.6608306,0 -100.1876843,25.6630258,0 -100.1875019,25.6634127,0 -100.187459,25.6638092,0 -100.1878775,25.6669327,0 -100.1841116,25.6672905,0 -100.1842189,25.6679287,0 -100.1833177,25.6709651,0 -100.1902807,25.67425280000001,0 -100.1915789,25.6745912,0 -100.2045501,25.6748039,0 -100.2154291,25.6749103,0 -100.2160836,25.67492,0 -100.2327991,25.6780819,0 -100.2484203,25.6799384,0 -100.259192,25.6798223,0 -100.2595708,25.6798102,0 -100.2599497,25.6797401,0 -100.2606967,25.6795709,0 -100.2614115,25.6795129,0 -100.2621693,25.6795225,0 -100.263792,25.6797063,0 -100.2654845,25.6798417,0 -100.2673137,25.6795226,0 -100.2677469,25.6794857,0 -100.268164,25.6795262,0 -100.2689552,25.6797087,0 -100.2706021,25.6801511,0 -100.2733084,25.6809802,0 -100.2760363,25.6818722,0 -100.2795983,25.6832065,0 -100.280301,25.6835788,0 -100.2806899,25.6837649,0 -100.2811003,25.683864,0 -100.2820015,25.683864,0 -100.2852202,25.6836126,0 -100.2913142,25.6836706,0 -100.2969307,25.6839027,0 -100.2970273,25.6830373,0 -100.3122031,25.6846955,0 -100.3139735,25.6712938,0 -100.3176105,25.6714582,0 -100.3177231,25.6715259,0 -100.3178466,25.6714969,0 -100.3180719,25.6717193,0 -100.3183401,25.6716903,0 -100.3184581,25.6715356,0 -100.3187049,25.6714099,0 -100.3188658,25.6714292,0 -100.317927,25.6783333,0 -100.3176641,25.6800641,0 -100.2975798,25.6778692,0 -100.2970246,25.6821163,0 -100.2950209,25.6819351,0 -100.2905832,25.6819314,0 -100.2792335,25.6828391,0 -100.2756715,25.6817755,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+		<Placemark>
+			<name>caseta</name>
+			<styleUrl>#line-A52714-3325-nodesc</styleUrl>
+			<LineString>
+				<tessellate>1</tessellate>
+				<coordinates>
+					-100.317927,25.6783333,0 -100.3176641,25.6800641,0 -100.3148425,25.6797256,0 -100.3063023,25.6788119,0 -100.2976213302495,25.67783246773535,0 -100.2975382,25.6786379,0 -100.2970246,25.6821163,0 -100.2960228,25.681987,0 -100.2950209,25.6819351,0 -100.2920678,25.6819278,0 -100.2905832,25.6819314,0 -100.289104,25.6820075,0 -100.2792335,25.6828391,0 -100.2726245,25.6806732,0 -100.2704224,25.6800278,0 -100.2693133,25.6797027,0 -100.268164,25.6794211,0 -100.2677442,25.6793776,0 -100.267303,25.6793582,0 -100.2654791,25.6797063,0 -100.264657,25.6797003,0 -100.2638349,25.6796023,0 -100.2622041,25.6793872,0 -100.2616737,25.6793473,0 -100.2611219,25.6793655,0 -100.259943,25.679629,0 -100.2593851,25.679629,0 -100.2483773,25.6797063,0 -100.2406311,25.6788167,0 -100.2333355,25.6780045,0 -100.2261686,25.6766508,0 -100.2162337,25.674833,0 -100.2157617,25.6747943,0 -100.1916432,25.6744462,0 -100.1903987,25.6741367,0 -100.1834732,25.6708829,0 -100.1843262,25.6681221,0 -100.1843047,25.6674452,0 -100.187974,25.6670584,0 -100.1876092,25.6637705,0 -100.1876307,25.6634417,0 -100.1878023,25.6630742,0 -100.1896477,25.6608693,0 -100.1897764,25.6602891,0 -100.1926947,25.6616623,0 -100.1935315,25.6620298,0 -100.1912785,25.666865,0 -100.1923406,25.6672711,0 -100.1931238,25.6677836,0 -100.1911202,25.6722777,0 
+				</coordinates>
+			</LineString>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
